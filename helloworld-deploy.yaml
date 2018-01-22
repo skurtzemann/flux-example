@@ -1,10 +1,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  annotations:
-    flux.weave.works/locked: "true"
-    flux.weave.works/locked_msg: ""
-    flux.weave.works/locked_user: Sébastien Kurtzemann <sebastien.k@capkopper.fr>
   name: helloworld
 spec:
   minReadySeconds: 5
